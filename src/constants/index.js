@@ -4,26 +4,25 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  kotlin,
+  react,
+  full,
+  django,
   carrent,
   jobit,
   tripguide,
-  threejs,
+
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -42,19 +41,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Developer" ,
+    ptitle : "طراحی وب" ,
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer ",
+    ptitle : "طراحی اپلیکیشن موبایل" ,
     icon: mobile,
   },
   {
     title: "Backend Developer",
+        ptitle : "طراحی سرور و بک-اند" ,
     icon: backend,
   },
   {
     title: "Content Creator",
+        ptitle : "تولید محتوا برای بالا بردن SEO" ,
     icon: creator,
   },
 ];
@@ -73,8 +76,16 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "Python",
+    icon: django,
+  },
+  {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
     name: "React JS",
@@ -88,18 +99,8 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
+
   {
     name: "git",
     icon: git,
@@ -116,55 +117,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Android Developer",
+
+    icon: kotlin,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2019 - Now ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining applications using Kotlin and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "ReactJS Developer",
+    icon: react,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - Now ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Experienced web developer with a strong background in ReactJS, adept at developing dynamic and interactive websites. Proven track record of collaborating effectively within teams to deliver high-quality projects.",
+      "Skilled in front-end development, implementing responsive designs, and ensuring optimal user experience.",
+      "Passionate about creating seamless user interfaces and enhancing website functionality. Solid understanding of JavaScript, HTML, and CSS, combined with excellent problem-solving skills.",
+      "Seeking new challenges to apply expertise in ReactJS and contribute to the success of future projects.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Back-end Developer",
+    icon: django,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "web developer with hands-on experience in Python Django framework, specializing in building websites and servers with RESTful APIs.",
+      "Proficient in collaborating effectively within cross-functional teams to deliver robust and scalable solutions. Expertise in developing back-end systems, integrating third-party services, and implementing security measures.",
+      "Strong understanding of database management and optimizing server performance. Passionate about delivering seamless user experiences and ensuring high-quality code. Eager to leverage Python Django skills to contribute to projects and drive success."
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+
+    icon: full,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I'm a seasoned full-stack developer with expertise in Kotlin, Python, JavaScript, and popular frameworks." ,
+      " I have years of experience building apps, websites, and web apps, and have honed my skills in creating robust, scalable, and maintainable solutions." ,
+      " I'm well-versed in Agile methodologies and have worked extensively with teams and stakeholders to deliver high-quality products." ,
+      " I'm passionate about staying up-to-date with the latest technologies and bringing value to any organization I join."
     ],
   },
 ];
